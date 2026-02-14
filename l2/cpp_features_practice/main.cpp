@@ -1,52 +1,54 @@
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
+
+struct Annotation {
+    std::string type;   // "requires" or "ensures"
+    std::string value;  // Tcondition
+};
+
+Annotation parseAnnotation(const std::string& annotation) {
+    Annotation result;
+    
+    // first find colon
+    size_t colonPos = annotation.find(":");
+    
+    // If no colon, invalid
+    if (colonPos == std::string::npos) {
+        result.type = "INVALID";
+        result.value = "";
+        return result;
+    }
+    
+    // type is everything before colon
+    result.type = annotation.substr(0, colonPos);
+    
+    // val is everything after
+    result.value = annotation.substr(colonPos + 1);
+    
+    return result;
+}
+
+void testParsing() {
+    std::cout << "\n=== Parsing Test ===" << std::endl;
+    
+    std::vector<std::string> annotations = {
+        "requires:x > 0",
+        "ensures:result > x",
+        "requires:index < array.size()",
+        "invalid_annotation"  // error here
+    };
+    
+    for (const auto& ann : annotations) {
+        Annotation parsed = parseAnnotation(ann);
+        std::cout << "Input: " << ann << std::endl;
+        std::cout << "  Type: " << parsed.type << std::endl;
+        std::cout << "  Value: " << parsed.value << std::endl;
+    }
+}
 
 int main()
 {
-    std::vector<int> numbers = {1, 2, 3, 4, 5};
-
-    for(int i = 0 ; i < numbers.size(); i++)
-    {
-        std::cout<<numbers.at(i)<<std::endl;
-    }
-
-    std::cout<<std::endl;
-
-    for(int num : numbers)
-    {
-        std::cout << num << std::endl;
-    }
-
-    std::cout<<std::endl;
-
-    for(auto num : numbers)
-    {
-        std::cout<< num << std::endl;
-    }
-
-    //auto looping through a vector of strings
-
-    std::vector<std::string> words = {"hello", "world", "andstuff"};
-
-    for (auto word : words) //causes a copy
-    {
-        std::cout<< word << std::endl;
-    }
-
-    std::cout<<std::endl;
-
-    for(const auto& word : words) // this is the best way to do it
-    {
-        std::cout<< word << std::endl;
-    }
-
-    // how come this isnt dereferenced
-
-    std::string str= "helloworld3";
-    std::string& str2  = str;
-
-    std::cout<< *str2 << std::endl;
-
+    testParsing();
     return 0;
 }
