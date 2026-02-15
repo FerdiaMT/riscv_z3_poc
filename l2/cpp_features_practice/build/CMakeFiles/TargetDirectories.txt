@@ -1,3 +1,0 @@
-/home/ferdia/Documents/WA0/l2/cpp_features_practice/build/CMakeFiles/practice.dir
-/home/ferdia/Documents/WA0/l2/cpp_features_practice/build/CMakeFiles/edit_cache.dir
-/home/ferdia/Documents/WA0/l2/cpp_features_practice/build/CMakeFiles/rebuild_cache.dir

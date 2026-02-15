@@ -1,3 +1,0 @@
-/home/ferdia/Documents/WA0/l1/my_lib/build/CMakeFiles/app.dir
-/home/ferdia/Documents/WA0/l1/my_lib/build/CMakeFiles/edit_cache.dir
-/home/ferdia/Documents/WA0/l1/my_lib/build/CMakeFiles/rebuild_cache.dir

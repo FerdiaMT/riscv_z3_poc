@@ -1,3 +1,0 @@
-/home/ferdia/Documents/WA0/l3/build/CMakeFiles/astTree.dir
-/home/ferdia/Documents/WA0/l3/build/CMakeFiles/edit_cache.dir
-/home/ferdia/Documents/WA0/l3/build/CMakeFiles/rebuild_cache.dir

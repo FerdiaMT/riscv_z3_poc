@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/ferdia/Documents/WA0/l3/build",
-  "command": "/usr/bin/clang++    -Wall -Wextra -g -std=gnu++17 -o CMakeFiles/astTree.dir/main.cpp.o -c /home/ferdia/Documents/WA0/l3/main.cpp",
-  "file": "/home/ferdia/Documents/WA0/l3/main.cpp",
-  "output": "CMakeFiles/astTree.dir/main.cpp.o"
-}
-]

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/ferdia/Documents/WA0/l2/cpp_features_practice/build",
-  "command": "/usr/bin/clang++    -Wall -Wextra -g -std=gnu++17 -o CMakeFiles/practice.dir/main.cpp.o -c /home/ferdia/Documents/WA0/l2/cpp_features_practice/main.cpp",
-  "file": "/home/ferdia/Documents/WA0/l2/cpp_features_practice/main.cpp",
-  "output": "CMakeFiles/practice.dir/main.cpp.o"
-}
-]

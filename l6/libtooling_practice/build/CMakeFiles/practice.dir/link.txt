@@ -1,1 +1,0 @@
-/usr/bin/c++  -fno-rtti -Wl,--dependency-file=CMakeFiles/practice.dir/link.d CMakeFiles/practice.dir/main.cpp.o -o practice  /usr/lib/libclang-cpp.so.21.1 /usr/lib/libLLVM.so.21.1

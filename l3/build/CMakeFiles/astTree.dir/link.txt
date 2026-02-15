@@ -1,1 +1,0 @@
-/usr/bin/clang++  -Wall -Wextra -g -Xlinker --dependency-file=CMakeFiles/astTree.dir/link.d CMakeFiles/astTree.dir/main.cpp.o -o astTree
