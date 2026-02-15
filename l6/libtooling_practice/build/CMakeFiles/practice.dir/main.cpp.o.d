@@ -251,4 +251,266 @@ CMakeFiles/practice.dir/main.cpp.o: \
  /usr/include/llvm/Support/MemoryBuffer.h /usr/include/llvm-c/Types.h \
  /usr/include/llvm/Support/CBindingWrapping.h \
  /usr/include/llvm/Support/MemoryBufferRef.h \
- /usr/include/llvm/Support/SMLoc.h
+ /usr/include/llvm/Support/SMLoc.h /usr/include/clang/Tooling/Tooling.h \
+ /usr/include/clang/AST/ASTConsumer.h \
+ /usr/include/clang/Basic/FileManager.h \
+ /usr/include/clang/Basic/DirectoryEntry.h \
+ /usr/include/clang/Basic/CustomizableOptional.h \
+ /usr/include/clang/Basic/FileEntry.h \
+ /usr/include/llvm/ADT/PointerUnion.h \
+ /usr/include/llvm/ADT/PointerIntPair.h \
+ /usr/include/clang/Basic/FileSystemOptions.h /usr/include/c++/15.2.1/map \
+ /usr/include/c++/15.2.1/bits/stl_tree.h \
+ /usr/include/c++/15.2.1/bits/stl_map.h \
+ /usr/include/c++/15.2.1/bits/stl_multimap.h \
+ /usr/include/clang/Frontend/FrontendAction.h \
+ /usr/include/clang/Basic/LangOptions.h \
+ /usr/include/clang/Basic/CFProtectionOptions.h \
+ /usr/include/clang/Basic/CFProtectionOptions.def \
+ /usr/include/clang/Basic/CommentOptions.h \
+ /usr/include/clang/Basic/LangStandard.h \
+ /usr/include/clang/Basic/LangStandards.def \
+ /usr/include/clang/Basic/ObjCRuntime.h \
+ /usr/include/llvm/Support/HashBuilder.h \
+ /usr/include/llvm/Support/VersionTuple.h \
+ /usr/include/llvm/TargetParser/Triple.h \
+ /usr/include/clang/Basic/Sanitizers.h \
+ /usr/include/llvm/Transforms/Instrumentation/AddressSanitizerOptions.h \
+ /usr/include/clang/Basic/Sanitizers.def \
+ /usr/include/clang/Basic/TargetCXXABI.h \
+ /usr/include/clang/Basic/TargetCXXABI.def \
+ /usr/include/clang/Basic/Visibility.h /usr/include/clang/Basic/Linkage.h \
+ /usr/include/llvm/ADT/FloatingPointMode.h \
+ /usr/include/llvm/ADT/BitmaskEnum.h \
+ /usr/include/llvm/BinaryFormat/DXContainer.h \
+ /usr/include/llvm/BinaryFormat/DXContainerConstants.def \
+ /usr/include/llvm/BinaryFormat/DXContainerConstants.def \
+ /usr/include/clang/Basic/LangOptions.def \
+ /usr/include/clang/Basic/FPOptions.def \
+ /usr/include/clang/Frontend/ASTUnit.h /usr/include/clang-c/Index.h \
+ /usr/include/clang-c/BuildSystem.h /usr/include/clang-c/CXErrorCode.h \
+ /usr/include/clang-c/ExternC.h /usr/include/clang-c/Platform.h \
+ /usr/include/clang-c/CXString.h /usr/include/clang-c/CXDiagnostic.h \
+ /usr/include/clang-c/CXSourceLocation.h /usr/include/clang-c/CXFile.h \
+ /usr/include/clang/AST/ASTContext.h /usr/include/clang/AST/ASTFwd.h \
+ /usr/include/clang/AST/DeclNodes.inc \
+ /usr/include/clang/AST/StmtNodes.inc \
+ /usr/include/clang/AST/TypeNodes.inc \
+ /usr/include/llvm/Frontend/OpenMP/OMP.inc \
+ /usr/include/clang/Basic/AttrList.inc \
+ /usr/include/clang/AST/CanonicalType.h /usr/include/clang/AST/Type.h \
+ /usr/include/clang/AST/DependenceFlags.h \
+ /usr/include/clang/Basic/BitmaskEnum.h \
+ /usr/include/clang/AST/NestedNameSpecifier.h \
+ /usr/include/clang/Basic/Diagnostic.h \
+ /usr/include/clang/Basic/DiagnosticIDs.h \
+ /usr/include/clang/Basic/DiagnosticCategories.h \
+ /usr/include/clang/Basic/DiagnosticGroups.inc \
+ /usr/include/clang/Basic/DiagnosticCommonInterface.inc \
+ /usr/include/clang/Basic/DiagnosticCommonKinds.inc \
+ /usr/include/clang/Basic/DiagnosticCommonEnums.inc \
+ /usr/include/clang/Basic/DiagnosticCommonCompatIDs.inc \
+ /usr/include/clang/Basic/DiagnosticOptions.h \
+ /usr/include/clang/Basic/DiagnosticOptions.def \
+ /usr/include/clang/Basic/SourceLocation.h \
+ /usr/include/clang/Basic/Specifiers.h \
+ /usr/include/clang/Basic/TransformTypeTraits.def \
+ /usr/include/clang/Basic/OpenCLImageTypes.def \
+ /usr/include/clang/Basic/HLSLIntangibleTypes.def \
+ /usr/include/clang/Basic/UnsignedOrNone.h \
+ /usr/include/llvm/ADT/FunctionExtras.h /usr/include/c++/15.2.1/list \
+ /usr/include/c++/15.2.1/bits/stl_list.h \
+ /usr/include/c++/15.2.1/bits/list.tcc /usr/include/llvm/ADT/FoldingSet.h \
+ /usr/include/llvm/Support/xxhash.h /usr/include/clang/AST/TemplateName.h \
+ /usr/include/clang/Basic/OperatorKinds.h \
+ /usr/include/clang/Basic/OperatorKinds.def \
+ /usr/include/clang/Basic/AddressSpaces.h \
+ /usr/include/clang/Basic/AttrKinds.h \
+ /usr/include/clang/Basic/ExceptionSpecificationType.h \
+ /usr/include/clang/Basic/PartialDiagnostic.h \
+ /usr/include/clang/Basic/PointerAuthOptions.h \
+ /usr/include/llvm/Target/TargetOptions.h \
+ /usr/include/llvm/MC/MCTargetOptions.h \
+ /usr/include/llvm/Support/CodeGen.h \
+ /usr/include/llvm/Support/Compression.h /usr/include/llvm/ADT/APInt.h \
+ /usr/include/llvm/Support/float128.h /usr/include/llvm/ADT/APSInt.h \
+ /usr/include/llvm/Support/DXILABI.h \
+ /usr/include/llvm/Support/TrailingObjects.h \
+ /usr/include/c++/15.2.1/bitset \
+ /usr/include/clang/Basic/OpenCLExtensionTypes.def \
+ /usr/include/clang/Basic/AArch64ACLETypes.def \
+ /usr/include/clang/Basic/PPCTypes.def \
+ /usr/include/clang/Basic/RISCVVTypes.def \
+ /usr/include/clang/Basic/WebAssemblyReferenceTypes.def \
+ /usr/include/clang/Basic/AMDGPUTypes.def \
+ /usr/include/clang/AST/BuiltinTypes.def \
+ /usr/include/clang/AST/CommentCommandTraits.h \
+ /usr/include/clang/AST/CommentCommandList.inc \
+ /usr/include/clang/AST/ComparisonCategories.h \
+ /usr/include/clang/AST/Decl.h /usr/include/clang/AST/APNumericStorage.h \
+ /usr/include/llvm/ADT/APFloat.h /usr/include/clang/AST/APValue.h \
+ /usr/include/llvm/ADT/APFixedPoint.h \
+ /usr/include/clang/AST/ASTContextAllocate.h \
+ /usr/include/clang/AST/DeclAccessPair.h \
+ /usr/include/clang/AST/DeclBase.h \
+ /usr/include/clang/AST/ASTDumperUtils.h \
+ /usr/include/clang/AST/AttrIterator.h /usr/include/clang/AST/DeclID.h \
+ /usr/include/clang/Basic/BuiltinTemplates.inc \
+ /usr/include/clang/AST/DeclarationName.h \
+ /usr/include/clang/Basic/IdentifierTable.h \
+ /usr/include/clang/Basic/Builtins.h /usr/include/llvm/ADT/StringTable.h \
+ /usr/include/clang/Basic/BuiltinHeaders.def \
+ /usr/include/clang/Basic/Builtins.inc \
+ /usr/include/clang/Basic/TokenKinds.h \
+ /usr/include/clang/Basic/TokenKinds.def \
+ /usr/include/clang/Basic/RegularKeywordAttrInfo.inc \
+ /usr/include/clang/AST/SelectorLocationsKind.h \
+ /usr/include/llvm/Support/PrettyStackTrace.h \
+ /usr/include/clang/AST/ExternalASTSource.h \
+ /usr/include/clang/AST/CharUnits.h /usr/include/clang/AST/Redeclarable.h \
+ /usr/include/clang/Basic/PragmaKinds.h \
+ /usr/include/llvm/Frontend/HLSL/HLSLRootSignature.h \
+ /usr/include/c++/15.2.1/variant /usr/include/c++/15.2.1/bits/monostate.h \
+ /usr/include/clang/AST/PrettyPrinter.h \
+ /usr/include/clang/AST/RawCommentList.h \
+ /usr/include/clang/AST/SYCLKernelInfo.h \
+ /usr/include/llvm/ADT/MapVector.h /usr/include/llvm/ADT/SetVector.h \
+ /usr/include/llvm/ADT/StringSet.h /usr/include/llvm/ADT/TinyPtrVector.h \
+ /usr/include/llvm/Support/TypeSize.h \
+ /usr/include/clang/Basic/SourceManager.h \
+ /usr/include/llvm/ADT/BitVector.h /usr/include/llvm/ADT/PagedVector.h \
+ /usr/include/clang/Basic/TargetOptions.h \
+ /usr/include/clang/Basic/OpenCLOptions.h \
+ /usr/include/clang/Lex/HeaderSearchOptions.h \
+ /usr/include/llvm/ADT/CachedHashString.h \
+ /usr/include/clang/Lex/ModuleLoader.h /usr/include/clang/Basic/Module.h \
+ /usr/include/clang/Lex/PreprocessingRecord.h \
+ /usr/include/clang/Lex/PPCallbacks.h /usr/include/clang/Lex/Pragma.h \
+ /usr/include/clang/Sema/CodeCompleteConsumer.h \
+ /usr/include/clang/Lex/MacroInfo.h /usr/include/clang/Lex/Token.h \
+ /usr/include/clang/Sema/CodeCompleteOptions.h \
+ /usr/include/clang/Sema/DeclSpec.h /usr/include/clang/AST/DeclCXX.h \
+ /usr/include/clang/AST/ASTUnresolvedSet.h \
+ /usr/include/clang/AST/ASTVector.h \
+ /usr/include/clang/AST/UnresolvedSet.h /usr/include/clang/AST/Expr.h \
+ /usr/include/clang/AST/ComputeDependence.h \
+ /usr/include/clang/AST/OperationKinds.h \
+ /usr/include/clang/AST/OperationKinds.def /usr/include/clang/AST/Stmt.h \
+ /usr/include/clang/AST/DeclGroup.h /usr/include/clang/AST/StmtIterator.h \
+ /usr/include/clang/Basic/CapturedStmt.h \
+ /usr/include/clang/Basic/ExpressionTraits.h \
+ /usr/include/clang/Basic/Lambda.h /usr/include/clang/Basic/TypeTraits.h \
+ /usr/include/clang/AST/TemplateBase.h \
+ /usr/include/clang/Basic/CharInfo.h /usr/include/clang/Basic/SyncScope.h \
+ /usr/include/llvm/Support/AtomicOrdering.h \
+ /usr/include/clang/AST/LambdaCapture.h /usr/include/clang/AST/TypeLoc.h \
+ /usr/include/clang/AST/ASTConcept.h \
+ /usr/include/clang/AST/TypeLocNodes.def \
+ /usr/include/clang/AST/CXXRecordDeclDefinitionBits.def \
+ /usr/include/clang/AST/DeclObjCCommon.h \
+ /usr/include/clang/Sema/Ownership.h /usr/include/clang/Sema/ParsedAttr.h \
+ /usr/include/clang/Basic/AttrSubjectMatchRules.h \
+ /usr/include/clang/Basic/AttrSubMatchRulesList.inc \
+ /usr/include/clang/Basic/AttributeCommonInfo.h \
+ /usr/include/clang/Basic/AttributeScopeInfo.h \
+ /usr/include/clang/Basic/AttrParsedAttrList.inc \
+ /usr/include/clang/Basic/ParsedAttrInfo.h \
+ /usr/include/clang/Support/Compiler.h \
+ /usr/include/llvm/Support/Registry.h \
+ /usr/include/llvm/Support/DynamicLibrary.h \
+ /usr/include/clang/Serialization/ASTBitCodes.h \
+ /usr/include/clang/Serialization/SourceLocationEncoding.h \
+ /usr/include/llvm/Bitstream/BitCodes.h \
+ /usr/include/llvm/ADT/StringExtras.h \
+ /usr/include/llvm/Bitstream/BitCodeEnums.h \
+ /usr/include/clang/Serialization/TypeBitCodes.def \
+ /usr/include/clang/Frontend/PrecompiledPreamble.h \
+ /usr/include/clang/Lex/Lexer.h \
+ /usr/include/clang/Lex/DependencyDirectivesScanner.h \
+ /usr/include/clang/Lex/PreprocessorLexer.h \
+ /usr/include/clang/Lex/MultipleIncludeOpt.h \
+ /usr/include/clang/Lex/Preprocessor.h \
+ /usr/include/clang/Lex/HeaderSearch.h \
+ /usr/include/clang/Lex/DirectoryLookup.h \
+ /usr/include/clang/Lex/ModuleMap.h \
+ /usr/include/clang/Lex/ModuleMapFile.h \
+ /usr/include/clang/Lex/ExternalPreprocessorSource.h \
+ /usr/include/clang/Lex/HeaderMap.h \
+ /usr/include/clang/Lex/HeaderMapTypes.h \
+ /usr/include/clang/Lex/PPEmbedParameters.h \
+ /usr/include/clang/Lex/PPDirectiveParameter.h \
+ /usr/include/clang/Lex/TokenLexer.h \
+ /usr/include/clang/Frontend/CompilerInstance.h \
+ /usr/include/clang/Basic/TargetInfo.h \
+ /usr/include/clang/Basic/CodeGenOptions.h \
+ /usr/include/clang/Basic/XRayInstr.h \
+ /usr/include/llvm/Frontend/Debug/Options.h \
+ /usr/include/llvm/Frontend/Driver/CodeGenOptions.h \
+ /usr/include/llvm/Support/Regex.h \
+ /usr/include/clang/Basic/CodeGenOptions.def \
+ /usr/include/clang/Basic/DebugOptions.def \
+ /usr/include/llvm/ADT/SmallSet.h /usr/include/c++/15.2.1/set \
+ /usr/include/c++/15.2.1/bits/stl_set.h \
+ /usr/include/c++/15.2.1/bits/stl_multiset.h \
+ /usr/include/llvm/Frontend/OpenMP/OMPGridValues.h \
+ /usr/include/llvm/IR/DerivedTypes.h /usr/include/llvm/IR/Type.h \
+ /usr/include/clang/Basic/OpenCLExtensions.def \
+ /usr/include/clang/Frontend/CompilerInvocation.h \
+ /usr/include/clang/APINotes/APINotesOptions.h \
+ /usr/include/clang/Frontend/DependencyOutputOptions.h \
+ /usr/include/clang/Basic/HeaderInclude.h \
+ /usr/include/clang/Frontend/FrontendOptions.h \
+ /usr/include/clang/Frontend/CommandLineSourceLoc.h \
+ /usr/include/clang/Serialization/ModuleFileExtension.h \
+ /usr/include/clang/Frontend/MigratorOptions.h \
+ /usr/include/clang/Frontend/PreprocessorOutputOptions.h \
+ /usr/include/clang/StaticAnalyzer/Core/AnalyzerOptions.h \
+ /usr/include/clang/Analysis/PathDiagnostic.h \
+ /usr/include/clang/Analysis/AnalysisDeclContext.h \
+ /usr/include/clang/Analysis/BodyFarm.h /usr/include/clang/Analysis/CFG.h \
+ /usr/include/clang/AST/Attr.h /usr/include/clang/Basic/OpenMPKinds.h \
+ /usr/include/llvm/ADT/Sequence.h \
+ /usr/include/llvm/Frontend/OpenMP/OMPConstants.h \
+ /usr/include/llvm/Frontend/OpenMP/OMP.h \
+ /usr/include/llvm/Frontend/OpenMP/OMP.h.inc \
+ /usr/include/llvm/Frontend/Directive/Spelling.h \
+ /usr/include/llvm/Frontend/OpenMP/OMPKinds.def \
+ /usr/include/llvm/Frontend/OpenMP/OMPDeviceConstants.h \
+ /usr/include/clang/Basic/OpenMPKinds.def \
+ /usr/include/llvm/Frontend/HLSL/HLSLResource.h \
+ /usr/include/clang/AST/Attrs.inc /usr/include/clang/AST/ExprCXX.h \
+ /usr/include/clang/AST/DeclTemplate.h /usr/include/clang/AST/StmtCXX.h \
+ /usr/include/clang/AST/ExprObjC.h /usr/include/clang/AST/DeclObjC.h \
+ /usr/include/clang/Analysis/ConstructionContext.h \
+ /usr/include/clang/Analysis/Support/BumpVector.h \
+ /usr/include/llvm/ADT/GraphTraits.h \
+ /usr/include/clang/Analysis/CodeInjector.h /usr/include/c++/15.2.1/deque \
+ /usr/include/c++/15.2.1/bits/stl_deque.h \
+ /usr/include/c++/15.2.1/bits/deque.tcc \
+ /usr/include/clang/StaticAnalyzer/Core/Analyses.def \
+ /usr/include/clang/StaticAnalyzer/Core/AnalyzerOptions.def \
+ /usr/include/clang/StaticAnalyzer/Checkers/Checkers.inc \
+ /usr/include/clang/Frontend/PCHContainerOperations.h \
+ /usr/include/clang/Serialization/PCHContainerOperations.h \
+ /usr/include/clang/Frontend/Utils.h \
+ /usr/include/clang/Driver/OptionUtils.h \
+ /usr/include/llvm/Option/OptSpecifier.h \
+ /usr/include/llvm/Support/FileCollector.h /usr/include/c++/15.2.1/mutex \
+ /usr/include/c++/15.2.1/bits/std_mutex.h \
+ /usr/include/c++/15.2.1/bits/unique_lock.h \
+ /usr/include/llvm/Support/BuryPointer.h \
+ /usr/include/llvm/Option/Option.h /usr/include/llvm/Option/OptTable.h \
+ /usr/include/clang/Frontend/ASTConsumers.h \
+ /usr/include/clang/AST/RecursiveASTVisitor.h \
+ /usr/include/clang/AST/DeclFriend.h /usr/include/clang/AST/DeclOpenACC.h \
+ /usr/include/clang/AST/OpenACCClause.h \
+ /usr/include/clang/Basic/OpenACCKinds.h \
+ /usr/include/clang/Basic/OpenACCClauses.def \
+ /usr/include/clang/AST/DeclOpenMP.h \
+ /usr/include/clang/AST/OpenMPClause.h \
+ /usr/include/llvm/Frontend/OpenMP/OMPAssume.h \
+ /usr/include/llvm/Frontend/OpenMP/OMPContext.h \
+ /usr/include/clang/AST/ExprConcepts.h \
+ /usr/include/clang/AST/ExprOpenMP.h /usr/include/clang/AST/StmtObjC.h \
+ /usr/include/clang/AST/StmtOpenACC.h /usr/include/clang/AST/StmtOpenMP.h \
+ /usr/include/clang/AST/StmtSYCL.h /usr/include/clang/AST/AttrVisitor.inc
