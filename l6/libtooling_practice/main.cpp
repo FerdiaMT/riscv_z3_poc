@@ -26,6 +26,10 @@ public:
             {
                 std::cout << " func found in our tree: " << FD->getNameAsString() <<std::endl;
             }
+            else if (VarDecl* VD = dyn_cast<VarDecl>(node))
+            {
+                std::cout << " var found in our tree: " << VD->getNameAsString() <<std::endl;
+            }
             else
             {
                 std::cout << " type found in our tree: " << node->getDeclKindName() <<std::endl;
